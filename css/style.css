@@ -1,0 +1,279 @@
+:root{
+  /* --color-schemes-2: #92d36e; old */
+  --color-schemes-2: rgb(146, 211, 110);
+  --opacity: 1;
+  --bg-r-1: 20;
+  --bg-g-1: 100;
+  --bg-b-1: 246;
+  --bg-r-2: 245;
+  --bg-g-2: 245;
+  --bg-b-2: 245;
+  --bg-r-3: 146;
+  --bg-g-3: 211;
+  --bg-b-3: 110;
+  --font-size: 1.5rem;
+  --page-gap: 5rem;
+  --nav-size: 4.25rem;
+}
+html, body {
+  margin: 0;
+}
+
+p, ul {
+  font-size: var(--font-size);
+  font-weight: 500;
+}
+
+.flip-card h3 {
+  font-size:  calc(var(--font-size)*1.5);
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+main {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient( 7.5deg, rgba(var(--bg-r-3), var(--bg-g-3), var(--bg-b-3), 1) 15%, whitesmoke 15%);
+}
+.main {
+  display: grid;
+  padding: var(--page-gap) 0;
+  gap: var(--page-gap);
+}
+.form-control {
+  border-color: var(--success);
+}
+.form-control::placeholder {
+  color: rgba(25, 25, 25, 1);
+}
+
+
+.banner, header, nav {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Agricultural_machinery.jpg/1920px-Agricultural_machinery.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  height: calc( 100vh - var(--nav-size) );
+  grid-template-columns: 1fr minmax(150px, 15%) 1fr;
+  text-align: center;
+}
+header::before, header::after {
+  content: "";
+}
+.rounded_img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+header > div {
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+header + div {
+  margin-bottom: var(--nav-size); 
+}
+
+.anchor {
+  position: absolute;
+  top: calc((var(--nav-size) + var(--page-gap))* -1);
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+}
+
+.navbar {
+  --opacity: 0.15;
+  background-color: rgba(var(--bg-r-1), var(--bg-g-1), var(--bg-b-1), 0.15);
+}
+
+.page {
+  position: relative;
+  display: grid;
+  grid-auto-rows: auto 1fr;
+  overflow: hidden;
+  width: 100%;
+  gap: calc(var(--page-gap)/2);
+  place-items: center;
+}
+
+.page > h2 {
+  justify-self: center;
+  font-size: calc(var(--font-size)*2);
+}
+
+[class*="-body"] {
+  align-self: center;
+}
+
+/* machines part */
+
+/* flip Card */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  overflow: visible;
+  background-color: transparent;
+  width: 350px;
+  max-width: 350px;
+  height: 550px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card .img { 
+  width: 100%;
+  height: 35%;
+  display: grid;
+  place-items: center;
+}
+.flip-card img { 
+  object-fit: cover;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card-inner > * {
+  border-radius: 7.5px;
+  overflow-y: hidden;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+}
+
+.flip-card-front .card {
+  background-color: rgba(var(--bg-r-2), var(--bg-g-2), var(--bg-b-2), 0.1);
+  background-image: linear-gradient(
+    180deg, rgba(0 0 0 / 0.15) 0%, rgba(0 0 0 / 0.1) 25%, rgba(255 255 255/ 0.25) 75%,
+    rgba(255 255 255/ 0.1) 100%
+  );
+  color: black;
+  height: 100%;
+}
+/* Style the back side */
+.flip-card-back {
+  height: 100%;
+  background-image: linear-gradient(45deg, transparent -15%, rgb(0 0 0 / 50%));
+  background-color: rgba(var(--bg-r-3), var(--bg-g-3), var(--bg-b-3), 1);
+  color: #f5f5f5;
+  transform: rotateY(180deg);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  place-items: center;
+  text-align: left;
+}
+
+/* media carousel */
+.media-body, .media-container {
+  background-color: whitesmoke;
+}
+
+.media-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: .5rem;
+  border-radius: 2px;
+}
+.media-container::before, .media-container::after {
+  content: "";
+  background: rgba(var(--bg-r-1), var(--bg-g-1), var(--bg-b-1), 0.15);
+  width: 25px;
+  border: 1px solid rgba(var(--bg-r-1), var(--bg-g-1), var(--bg-b-1), 0.5);
+}
+
+.media-container::before {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.media-container::after {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.media-container > div {
+  display: grid;
+  grid-auto-rows: 1fr;
+  
+}
+.media-container > div::before {
+  content: "";
+  padding-top: 62.5%;
+}
+.media-container > div::before, .media-container > div > :first-child {
+  grid-row: 1;
+  grid-column: 1;
+}
+#mediaCarousel, #mediaCarousel .carousel-inner, #mediaCarousel .carousel-item, #mediaCarousel img  {
+  height: 100%;
+  width: 100%;
+}
+#mediaCarousel img  {
+  object-fit: cover;
+}
+#mediaCarousel [class*="carousel-control"] {
+  width: 25px;
+}
+
+#mediaCarousel .carousel-control-prev {
+  left: -30px;
+}
+
+#mediaCarousel .carousel-control-next {
+  right: -30px;
+}
+.contact-body {
+  display: grid;
+  justify-items: center;
+} 
+.contact-body > form {
+  max-width: 500px;
+  display: grid;
+}
+
+.form-group {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: calc(var(--page-gap)/5);
+}
+
+.form-group.check{
+  grid-template-columns: auto 1fr;
+}
