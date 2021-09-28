@@ -10,7 +10,7 @@
     <meta property="og:title" content="Title Here"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="/"/>
-    <meta property="og:image" content="/imgs/snippet.jpg"/>
+    <meta property="og:image" content="/imgs/preview.png"/>
     <meta property="og:description" content="AgriTech est une entreprise de construction d'engin agricole"/>
     <meta http-equiv="Content-Security-Policy" content="
       default-src 'self';
