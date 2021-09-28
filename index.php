@@ -1,4 +1,7 @@
-<?php #include 'components/db.php' ?>
+<?php 
+#include 'components/db.php' 
+ var_dump(curl 'https://api.airtable.com/v0/appOuRReYKFkgUUJf/contact?api_key=YOUR_API_KEY')
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
