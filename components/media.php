@@ -27,7 +27,7 @@
                         foreach( $medias as $key=>$row) {
                       ?>
                       <div class="carousel-item <?php echo $key === 0 ? "active" : "" ?>">
-                        <img src="<?php echo $row['url'] ?>" class="d-block w-100" alt="<?php echo $row['description'] ?>"/>
+                        <img src="<?php echo $row['url'] ?>" class="d-block w-100" alt="<?php echo $row['description'] ?>" loading="lazy"/>
                       </div>
                       <?php
                         }
