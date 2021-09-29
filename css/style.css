@@ -54,7 +54,7 @@ main {
 .banner, header, nav {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("/hero.avif");
+    url("/imgs/hero.avif");
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
