@@ -19,7 +19,7 @@
           <div class="flip-card-front border border-success">
             <div class="card p-4">
               <div class="img">
-                <img src="<?php echo $row['illustration']; ?>" class="card-img-top" alt="photo d'un <?php echo $row['name']; ?>">
+                <img src="<?php echo $row['illustration']; ?>" class="card-img-top" alt="photo d'un <?php echo $row['name']; ?>"/>
               </div>
               <div class="pt-2">
                 <h3><?php echo $row['name']; ?></h3>
