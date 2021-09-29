@@ -31,7 +31,7 @@
       <header id="home" class="text-light d-grid align-content-middle">
         <div>
           <div class="rounded_img">
-            <amp-img src="/imgs/logo.avif" alt="Logo"></div>
+            <img src="/imgs/logo.avif" alt="Logo"></div>
             <h1>AgriTech</h1>
           </div>
       </header>
@@ -95,7 +95,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <amp-img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
+                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
                       </div>
                       <div class="pt-2">
                         <h3>Truc TX-450</h3>
@@ -119,7 +119,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <amp-img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
+                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
                       </div>
                       <div class="pt-2">
                         <h3>Bidule SV-504</h3>
@@ -143,7 +143,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <amp-img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
+                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
                       </div>
                       <div class="pt-2">
                         <h3>Machin WD-054</h3>
@@ -167,7 +167,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <amp-img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045">
+                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
@@ -204,13 +204,13 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <amp-img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
+                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
                       </div>
                       <div class="carousel-item">
-                        <amp-img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant">
+                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant">
                       </div>
                       <div class="carousel-item">
-                        <amp-img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant">
+                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#mediaCarousel" role="button" data-slide="prev">
