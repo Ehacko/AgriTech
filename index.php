@@ -14,7 +14,7 @@
     <meta property="og:description" content="AgriTech est une entreprise de construction d'engin agricole"/>
     <meta http-equiv="Content-Security-Policy" content="
       default-src 'self';
-      img-src  https://*;
+      img-src * data:;
       child-src 'none';
       object-src 'none';
     ">
