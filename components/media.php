@@ -11,7 +11,6 @@
                     <?php
                       $query_str = "SELECT * FROM media";
                       $db_select = $db->prepare($query_str);
-                      $db_select -> bindParam(1,$id);
                       $db_select -> execute();
                       $medias = $db_select->fetchall()
                     ?>
@@ -25,11 +24,6 @@
                     </ol>
                     <div class="carousel-inner">
                       <?php
-                        $query_str = "SELECT * FROM media";
-                        $db_select = $db->prepare($query_str);
-                        $db_select -> bindParam(1,$id);
-                        $db_select -> execute();
-                        $medias = $db_select->fetchall();
                         foreach( $medias as $key=>$row) {
                       ?>
                       <div class="carousel-item <?php echo $key === 0 ? "active" : "" ?>">
