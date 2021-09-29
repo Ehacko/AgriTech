@@ -80,7 +80,8 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
             </p>
           </div>
-        </section>        <section class="page">
+        </section>
+        <section class="page">
           <div id="machines" class="anchor"></div>
           <h2>
             Nos machines
@@ -95,7 +96,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
+                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450" loading="lazy">
                       </div>
                       <div class="pt-2">
                         <h3>Truc TX-450</h3>
@@ -107,7 +108,12 @@
                     <h4>Spécificité</h4>
                     <div>
                       <ul>
-                        <li><span>Puissance : </span><span>1TW</span></li>                <li><span>Vitesse : </span><span>1KM/S</span></li>                <li><span>Consommation : </span><span>1mm²/J</span></li>                <li><span>Type de carburant : </span><span>h²o</span></li>                <li><span>Emission : </span><span>1cm²/m(o³)</span></li>              </ul>
+                        <li><span>Puissance : </span><span>1TW</span></li>
+                        <li><span>Vitesse : </span><span>1KM/S</span></li>
+                        <li><span>Consommation : </span><span>1mm²/J</span></li>
+                        <li><span>Type de carburant : </span><span>h²o</span></li>
+                        <li><span>Emission : </span><span>1cm²/m(o³)</span></li>
+                      </ul>
                     </div>
                     <button class="btn btn-dark">en savoir plus</button>
                   </div>
@@ -119,7 +125,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
+                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504" loading="lazy">
                       </div>
                       <div class="pt-2">
                         <h3>Bidule SV-504</h3>
@@ -131,7 +137,12 @@
                     <h4>Spécificité</h4>
                     <div>
                       <ul>
-                        <li><span>Puissance : </span><span>1TW</span></li>                <li><span>Vitesse : </span><span>1KM/S</span></li>                <li><span>Consommation : </span><span>1mm²/J</span></li>                <li><span>Type de carburant : </span><span>h²o</span></li>                <li><span>Emission : </span><span>1cm²/m(o³)</span></li>              </ul>
+                        <li><span>Puissance : </span><span>1TW</span></li>
+                        <li><span>Vitesse : </span><span>1KM/S</span></li>
+                        <li><span>Consommation : </span><span>1mm²/J</span></li>
+                        <li><span>Type de carburant : </span><span>h²o</span></li>
+                        <li><span>Emission : </span><span>1cm²/m(o³)</span></li>
+                      </ul>
                     </div>
                     <button class="btn btn-dark">en savoir plus</button>
                   </div>
@@ -143,7 +154,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
+                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054" loading="lazy">
                       </div>
                       <div class="pt-2">
                         <h3>Machin WD-054</h3>
@@ -155,7 +166,12 @@
                     <h4>Spécificité</h4>
                     <div>
                       <ul>
-                        <li><span>Puissance : </span><span>1TW</span></li>                <li><span>Vitesse : </span><span>1KM/S</span></li>                <li><span>Consommation : </span><span>1mm²/J</span></li>                <li><span>Type de carburant : </span><span>h²o</span></li>                <li><span>Emission : </span><span>1cm²/m(o³)</span></li>              </ul>
+                        <li><span>Puissance : </span><span>1TW</span></li>
+                        <li><span>Vitesse : </span><span>1KM/S</span></li>
+                        <li><span>Consommation : </span><span>1mm²/J</span></li>
+                        <li><span>Type de carburant : </span><span>h²o</span></li>
+                        <li><span>Emission : </span><span>1cm²/m(o³)</span></li>
+                      </ul>
                     </div>
                     <button class="btn btn-dark">en savoir plus</button>
                   </div>
@@ -167,7 +183,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045">
+                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045" loading="lazy">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
@@ -179,7 +195,12 @@
                     <h4>Spécificité</h4>
                     <div>
                       <ul>
-                        <li><span>Puissance : </span><span>1TW</span></li>                <li><span>Vitesse : </span><span>1KM/S</span></li>                <li><span>Consommation : </span><span>1mm²/J</span></li>                <li><span>Type de carburant : </span><span>h²o</span></li>                <li><span>Emission : </span><span>1cm²/m(o³)</span></li>              </ul>
+                        <li><span>Puissance : </span><span>1TW</span></li>
+                        <li><span>Vitesse : </span><span>1KM/S</span></li>
+                        <li><span>Consommation : </span><span>1mm²/J</span></li>
+                        <li><span>Type de carburant : </span><span>h²o</span></li>
+                        <li><span>Emission : </span><span>1cm²/m(o³)</span></li>
+                      </ul>
                     </div>
                     <button class="btn btn-dark">en savoir plus</button>
                   </div>
@@ -204,13 +225,13 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
+                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant" loading="lazy">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant">
+                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant" loading="lazy">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant">
+                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant" loading="lazy">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#mediaCarousel" role="button" data-slide="prev">
