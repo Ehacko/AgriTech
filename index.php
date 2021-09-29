@@ -81,7 +81,7 @@
             </p>
           </div>
         </section>
-        <section class="page">
+        <section class="page" loading="lazy">
           <div id="machines" class="anchor"></div>
           <h2>
             Nos machines
@@ -96,7 +96,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450" loading="lazy">
+                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
                       </div>
                       <div class="pt-2">
                         <h3>Truc TX-450</h3>
@@ -125,7 +125,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504" loading="lazy">
+                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
                       </div>
                       <div class="pt-2">
                         <h3>Bidule SV-504</h3>
@@ -154,7 +154,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054" loading="lazy">
+                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
                       </div>
                       <div class="pt-2">
                         <h3>Machin WD-054</h3>
@@ -183,7 +183,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045" loading="lazy">
+                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
@@ -209,7 +209,7 @@
             </div>
           </div>
         </section>         
-        <section class="page">
+        <section class="page" loading="lazy">
           <div id="media" class="anchor"></div>
             <h2> Média </h2>
             <div class="container media-body p-1">
@@ -225,13 +225,13 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant" loading="lazy">
+                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant" loading="lazy">
+                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant" loading="lazy">
+                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#mediaCarousel" role="button" data-slide="prev">
