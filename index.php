@@ -167,7 +167,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/imgs/chouette" class="card-img-top" alt="photo d'un Chouette HK-045">
+                        <img src="/imgs/chouette.avif" class="card-img-top" alt="photo d'un Chouette HK-045">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
@@ -204,13 +204,13 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/imgs/media1" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
+                        <img src="/imgs/media1.avif" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media2" class="d-block w-100" alt="Tracteur tractant">
+                        <img src="/imgs/media2.avif" class="d-block w-100" alt="Tracteur tractant">
                       </div>
                       <div class="carousel-item">
-                        <img src="/imgs/media3" class="d-block w-100" alt="Flambeuse flambant">
+                        <img src="/imgs/media3.avif" class="d-block w-100" alt="Flambeuse flambant">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#mediaCarousel" role="button" data-slide="prev">
