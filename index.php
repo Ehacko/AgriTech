@@ -95,7 +95,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="https://www.deere.fr/assets/images/region-2/products/tractors/mid//1_r2g012393_large_7d08e7a96fb62b4963ebd6487eef2830492fec04.png" class="card-img-top" alt="photo d'un Truc TX-450">
+                        <img src="/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
                       </div>
                       <div class="pt-2">
                         <h3>Truc TX-450</h3>
@@ -119,7 +119,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="https://www.massanosnc.com/images/enfouisseurs-de-pierres-avec-rouleau/TITAN/enfouisseur-de-pierres-avec-rouleau-rse-titan-massano.png" class="card-img-top" alt="photo d'un Bidule SV-504">
+                        <img src="/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
                       </div>
                       <div class="pt-2">
                         <h3>Bidule SV-504</h3>
@@ -143,7 +143,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="https://www.vaderstad.com/globalassets/_international/assets/drilling/rapid-a-600s.png" class="card-img-top" alt="photo d'un Machin WD-054">
+                        <img src="/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
                       </div>
                       <div class="pt-2">
                         <h3>Machin WD-054</h3>
@@ -167,7 +167,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="https://www.vaderstad.com/globalassets/_international/assets/planting/tempo-f-8.png" class="card-img-top" alt="photo d'un Chouette HK-045">
+                        <img src="/chouette" class="card-img-top" alt="photo d'un Chouette HK-045">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
