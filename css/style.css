@@ -54,7 +54,7 @@ main {
 .banner, header, nav {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Agricultural_machinery.jpg/1920px-Agricultural_machinery.jpg");
+    url("/hero.avif");
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
