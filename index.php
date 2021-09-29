@@ -95,7 +95,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
+                        <img src="/imgs/truc.avif" class="card-img-top" alt="photo d'un Truc TX-450">
                       </div>
                       <div class="pt-2">
                         <h3>Truc TX-450</h3>
@@ -119,7 +119,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
+                        <img src="/imgs/bidule.avif" class="card-img-top" alt="photo d'un Bidule SV-504">
                       </div>
                       <div class="pt-2">
                         <h3>Bidule SV-504</h3>
@@ -143,7 +143,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
+                        <img src="/imgs/machin.avif" class="card-img-top" alt="photo d'un Machin WD-054">
                       </div>
                       <div class="pt-2">
                         <h3>Machin WD-054</h3>
@@ -167,7 +167,7 @@
                   <div class="flip-card-front border border-success">
                     <div class="card p-4">
                       <div class="img">
-                        <img src="/chouette" class="card-img-top" alt="photo d'un Chouette HK-045">
+                        <img src="/imgs/chouette" class="card-img-top" alt="photo d'un Chouette HK-045">
                       </div>
                       <div class="pt-2">
                         <h3>Chouette HK-045</h3>
@@ -204,13 +204,13 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="https://i.pinimg.com/originals/91/98/e1/9198e1653736a3919947303311958b83.jpg" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
+                        <img src="/imgs/media1" class="d-block w-100" alt="moissoneuse batteuse moissonnant battant">
                       </div>
                       <div class="carousel-item">
-                        <img src="https://images.squarespace-cdn.com/content/v1/56009067e4b0b3ef2f02936b/1455827006249-5E4TP8VGXYPCNO2MSGIL/ke17ZwdGBToddI8pDm48kDu-OvKe9-yMBj32JSWknrt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZNNUmsixw3l8iPy3vgDTPMwfMBbaTJA8uE3oWp8JUwqzkQXHaRS3Yhvu0vV6Jt1AA/DE.jpg?format=2500w" class="d-block w-100" alt="Tracteur tractant">
+                        <img src="/imgs/media2" class="d-block w-100" alt="Tracteur tractant">
                       </div>
                       <div class="carousel-item">
-                        <img src="https://i.pinimg.com/originals/14/89/38/148938bca5c19f553f6fe53810e44f0b.png" class="d-block w-100" alt="Flambeuse flambant">
+                        <img src="/imgs/media3" class="d-block w-100" alt="Flambeuse flambant">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#mediaCarousel" role="button" data-slide="prev">
