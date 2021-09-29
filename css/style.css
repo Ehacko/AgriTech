@@ -76,7 +76,7 @@ header::before, header::after {
   position: relative;
   padding-top: 100%;
 }
-header amp-img {
+header img {
   width: 100%;
   heigth: 100%;
   position: absolute;
