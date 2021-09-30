@@ -277,5 +277,5 @@ nav {
 }
 
 .form-group.check{
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 20px 1fr;
 }

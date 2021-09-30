@@ -7,13 +7,13 @@
     <div class="contact-body">
       <form method="post">
         <div class="form-group">
-          <input placeholder="Nom complet" type="text" class="form-control" id="name" name="name">
+          <input placeholder="Nom complet" type="text" class="form-control form-control-lg" id="name" name="name">
         </div>
         <div class="form-group">
-          <input placeholder="Téléphone" type="text" class="form-control" id="exampleInputPhone" name="phone">
+          <input placeholder="Téléphone" type="text" class="form-control form-control-lg" id="exampleInputPhone" name="phone">
         </div>
         <div class="form-group">
-          <input placeholder="Courriel" type="email" class="form-control" id="exampleInputEmail1" name="email">
+          <input placeholder="Courriel" type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email">
         </div>
         <div class="form-group check">
           <input type="checkbox" id="exampleCheck1" name="newsletter">
