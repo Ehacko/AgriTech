@@ -1,4 +1,7 @@
-<?php include 'components/db.php' ?>
+<?php
+  header("Cache-Control: max-age=2592000");
+  include 'components/db.php'
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
