@@ -5,7 +5,7 @@
 //   header("Expires: $ts");
 //   header("Pragma: cache");
 //   header("Cache-Control: max-age=$seconds_to_cache");
-//   include 'cache/top-cache.php'
+  include 'cache/top-cache.php'
   include 'components/db.php'
 ?>
 <!DOCTYPE html>
