@@ -167,6 +167,9 @@ nav {
 }
 .flip-card-inner, .flip-card-inner > * {
   border-radius: 7.5px;
+}
+
+.flip-card-inner > * {
   overflow-y: hidden;
 }
 
