@@ -36,7 +36,9 @@ main {
   position: relative;
   width: 100%;
   z-index: 1;
-  background-image: linear-gradient( 7.5deg, rgba(var(--bg-r-3), var(--bg-g-3), var(--bg-b-3), 1) 15%, whitesmoke 15%);
+  background-image: 
+    repeating-linear-gradient(rgb(0 0 0 / 5%) 250px, rgb(0 0 0 / 0%) 500px, rgb(0 0 0 / 5%) 750px),
+    linear-gradient( 7.5deg, rgba(var(--bg-r-3), var(--bg-g-3), var(--bg-b-3), 1) 15%, whitesmoke 15%);
 }
 .main {
   display: grid;
