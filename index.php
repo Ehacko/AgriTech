@@ -1,5 +1,10 @@
 <?php
-  header("Cache-Control: max-age=2592000");
+//   header("Cache-Control: max-age=2592000");
+  $seconds_to_cache = 60*60*24;
+  $ts = gmdate("D, d M Y H:i:s", time() + $seconds_to_cache) . " GMT";
+  header("Expires: $ts");
+  header("Pragma: cache");
+  header("Cache-Control: max-age=$seconds_to_cache");
   include 'components/db.php'
 ?>
 <!DOCTYPE html>
