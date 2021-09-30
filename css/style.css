@@ -81,6 +81,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+.card-img-top {
+  object-fit: scale-down;
+}
 header img {
   position: absolute;
   top: 0;
