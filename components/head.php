@@ -1,5 +1,5 @@
 <title>AgriTech</title>
-<link ref='icon' href="/imgs/logo.avif"/>
+<link rel="icon" type="image/png" href="/imgs/logo.avif" />
 <!-- meta tag -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
