@@ -279,3 +279,6 @@ nav {
 .form-group.check{
   grid-template-columns: 20px 1fr;
 }
+.form-group.check input {
+  height: 20px;
+}
