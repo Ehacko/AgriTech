@@ -1,10 +1,11 @@
 <?php
 //   header("Cache-Control: max-age=2592000");
-  $seconds_to_cache = 60*60*24*7;
-  $ts = gmdate("D, d M Y H:i:s", time() + $seconds_to_cache) . " GMT";
-  header("Expires: $ts");
-  header("Pragma: cache");
-  header("Cache-Control: max-age=$seconds_to_cache");
+//   $seconds_to_cache = 60*60*24*7;
+//   $ts = gmdate("D, d M Y H:i:s", time() + $seconds_to_cache) . " GMT";
+//   header("Expires: $ts");
+//   header("Pragma: cache");
+//   header("Cache-Control: max-age=$seconds_to_cache");
+  include '/cache/cache-top.php'
   include 'components/db.php'
 ?>
 <!DOCTYPE html>
@@ -26,4 +27,7 @@
   </body>
 </html>
 
-<?php #$query_str = null; $db_select = null ?>
+<?php
+  #$query_str = null; $db_select = null 
+  include '/cache/cache-bottom.php'
+?>
