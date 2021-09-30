@@ -33,7 +33,7 @@ html {
   scroll-behavior: smooth;
 }
 main {
-  --gradient-size: 500px;
+  --gradient-size: 1px;
   position: relative;
   width: 100%;
   z-index: 1;
