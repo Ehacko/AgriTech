@@ -120,7 +120,7 @@ nav {
   position: relative;
   display: grid;
   grid-auto-rows: auto 1fr;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
   gap: calc(var(--page-gap)/2);
   place-items: center;
@@ -161,8 +161,9 @@ nav {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  box-shadow: #adb5bd 1px 5px 15px;
 }
-.flip-card-inner > * {
+.flip-card-inner, .flip-card-inner > * {
   border-radius: 7.5px;
   overflow-y: hidden;
 }
