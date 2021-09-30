@@ -1,5 +1,5 @@
 <?php
-header('Cache-Control: max-age=31536000')
+header('Cache-Control: max-age=31536000');
 $url = $_SERVER["SCRIPT_NAME"];
 $break = Explode('/', $url);
 $file = $break[count($break) - 1];
