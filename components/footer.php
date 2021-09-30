@@ -16,11 +16,11 @@
           <input placeholder="Courriel" type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email">
         </div>
         <div class="form-group check">
-          <input type="checkbox" id="exampleCheck1" name="newsletter">
+          <input type="checkbox" id="exampleCheck1" name="newsletter" class="w-100">
           <label class="form-check-label" for="exampleCheck1">Je souhaite recevoir le newsletter AgriTech</label>
         </div>
         <div class="form-group check">
-          <input type="checkbox" id="exampleCheck2"  name="CGU">
+          <input type="checkbox" id="exampleCheck2" name="CGU" class="w-100">
           <label class="form-check-label" for="exampleCheck2">J'ai lu et j'accepte <a href="#condition_general">les conditions general d'utilisation</a> </label>
         </div>
         <button type="submit" class="btn btn-dark">Submit</button>
