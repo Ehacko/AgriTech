@@ -37,7 +37,7 @@ main {
   width: 100%;
   z-index: 1;
   background-image: 
-    repeating-linear-gradient(rgb(0 0 0 / 10%) 250px, rgb(255 255 255 / 10%) 500px, rgb(0 0 0 / 10%) 750px),
+    repeating-linear-gradient(rgb(255 255 255 / 10%) 250px, rgb(0 0 0 / 10%) 500px, rgb(255 255 255 / 10%) 750px),
     linear-gradient( 7.5deg, rgba(var(--bg-r-3), var(--bg-g-3), var(--bg-b-3), 1) 15%, whitesmoke 15%);
 }
 .main {
