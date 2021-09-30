@@ -22,11 +22,11 @@
                     
                       <?php } ?>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner h-100">
                       <?php
                         foreach( $medias as $key=>$row) {
                       ?>
-                      <div class="carousel-item <?php echo $key === 0 ? "active" : "" ?>">
+                      <div class="carousel-item h-100 <?php echo $key === 0 ? "active" : "" ?>">
                         <img src="<?php echo $row['url'] ?>" class="d-block w-100" alt="<?php echo $row['description'] ?>" loading="lazy"/>
                       </div>
                       <?php
