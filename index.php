@@ -15,7 +15,7 @@
     <?php include 'common/front_office/head.php' ?>
   </head>
   <body>
-    <?php include 'components/front_office/main.php' ?>
+    <?php include isset($_get['back_office']) ? 'components/back_office/main.php' : 'components/front_office/main.php' ?>
   </body>
 </html>
 
