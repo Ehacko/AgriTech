@@ -1,7 +1,9 @@
 <div class="sticky-top">
   <nav>
     <div class="navbar navbar-expand-lg navbar-dark">
-      <span></span>
+      <a class="navbar-brand" href="#">
+        <img rel="icon" type="image/png" src="/imgs/logo.avif" />
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
