@@ -5,7 +5,7 @@
 //   header("Expires: $ts");
 //   header("Pragma: cache");
 //   header("Cache-Control: max-age=$seconds_to_cache");
-  include 'cache/top-cache.php';
+#  include 'cache/top-cache.php';
   include 'components/db.php';
 ?>
 <!DOCTYPE html>
@@ -29,5 +29,5 @@
 
 <?php
   #$query_str = null; $db_select = null;
-  include 'cache/bottom-cache.php';
+  #include 'cache/bottom-cache.php';
 ?>
