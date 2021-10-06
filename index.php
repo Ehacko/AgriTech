@@ -15,7 +15,7 @@
     <?php include 'common/front_office/head.php' ?>
   </head>
   <body>
-    <?php include 'component/front_office/main.php' ?>
+    <?php include 'components/front_office/main.php' ?>
   </body>
 </html>
 
