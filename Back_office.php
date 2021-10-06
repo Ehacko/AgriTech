@@ -15,14 +15,12 @@
   </head>
   <body>
     <main>
-      <?php include 'components/header.php' ?>
       <?php include 'components/nav.php' ?>
       <div class="main">
         <?php include 'components/about.php' ?>
         <?php include 'components/machines.php' ?>
         <?php include 'components/media.php' ?>
       </div>
-      <?php include 'components/footer.php' ?>
     </main>
   </body>
 </html>
