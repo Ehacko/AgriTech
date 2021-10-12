@@ -13,7 +13,6 @@
 <meta http-equiv="Content-Security-Policy" content="
   default-src 'self';
   img-src * data:;
-  child-src 'none';
   object-src 'none';
 ">
 <!-- stylesheets -->
